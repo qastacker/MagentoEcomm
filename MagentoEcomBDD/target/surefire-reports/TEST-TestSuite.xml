@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.725" tests="10" errors="0" skipped="9" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="MavenBlog"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\Adol-sys-410\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="64bbe461f0731210"/>
+    <property name="POM_ARTIFACTID" value="MageBlog"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="MageBlog"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\ADOL-S~1\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="Adol-sys-410"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="MavenBlog"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:9090/job/MavenBlog/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="OneDrive" value="C:\Users\Adol-sys-410\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Adol-sys-410\AppData\Local"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="Adol-sys-410"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="OneDriveConsumer" value="C:\Users\Adol-sys-410\OneDrive"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="E:\apache-maven-3.6.1\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:9090/job/MavenBlog/2/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\ADOL-S~1\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:9090/job/MavenBlog/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-CP4RQU0"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\Adol-sys-410"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="DESKTOP-CP4RQU0"/>
+    <property name="POM_GROUPID" value="MageBlog"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="user.home" value="C:\Users\Adol-sys-410"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-MavenBlog-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="64bbe461f0731210"/>
+    <property name="HUDSON_URL" value="http://localhost:9090/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Adol-sys-410"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\apache-maven-3.6.1/bin;C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-12.0.1\bin;E:\apache-maven-3.6.1\bin;E:\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\Adol-sys-410\AppData\Local\Android\Sdk\tools;C:\Users\Adol-sys-410\AppData\Local\Android\Sdk\tools\bin;C:\Users\Adol-sys-410\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\Adol-sys-410\AppData\Local\Microsoft\WindowsApps;C:\Users\Adol-sys-410\AppData\Roaming\npm;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Adol-sys-410\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="E:\apache-maven-3.6.1"/>
+    <property name="java.class.path" value="C:\Users\Adol-sys-410\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;E:\apache-maven-3.6.1\boot\plexus-classworlds-2.6.0.jar;E:\apache-maven-3.6.1/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main E:\apache-maven-3.6.1 C:\Users\Adol-sys-410\.jenkins\war\WEB-INF\lib\remoting-3.33.jar C:\Users\Adol-sys-410\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Adol-sys-410\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 50590"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-12.0.1\bin;E:\apache-maven-3.6.1\bin;E:\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\Adol-sys-410\AppData\Local\Android\Sdk\tools;C:\Users\Adol-sys-410\AppData\Local\Android\Sdk\tools\bin;C:\Users\Adol-sys-410\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\Adol-sys-410\AppData\Local\Microsoft\WindowsApps;C:\Users\Adol-sys-410\AppData\Roaming\npm"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_201/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="NODE_HOME" value="C:\Program Files\nodejs"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="E:\apache-maven-3.6.1"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADOL-S~1\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Adol-sys-410\.jenkins"/>
+    <property name="PATH+MAVEN" value="E:\apache-maven-3.6.1/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:9090/job/MavenBlog/2/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Adol-sys-410\git\mavenBlog\MavenBlog1"/>
+    <property name="JOB_URL" value="http://localhost:9090/job/MavenBlog/"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-CP4RQU0"/>
+    <property name="USERDOMAIN" value="DESKTOP-CP4RQU0"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="E:\apache-maven-3.6.1"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="ANDROID_HOME" value="C:\Users\Adol-sys-410\AppData\Local\Android\Sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:9090/"/>
+    <property name="PROCESSOR_REVISION" value="3d04"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\Adol-sys-410"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Adol-sys-410\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE" value="C:\Users\Adol-sys-410\.jenkins\workspace\MavenBlog"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Adol-sys-410\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase name="initialize" classname="mavenBlog1.HomePage" time="4.234">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 77&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-CP4RQU0&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0031EB13+1501971]&#10;	Ordinal0 [0x0029F6D1+980689]&#10;	Ordinal0 [0x0022765F+489055]&#10;	Ordinal0 [0x001BF2F4+62196]&#10;	Ordinal0 [0x001BBCDA+48346]&#10;	Ordinal0 [0x001D9800+169984]&#10;	Ordinal0 [0x001D942D+169005]&#10;	Ordinal0 [0x001D78EB+162027]&#10;	Ordinal0 [0x001C0AC7+68295]&#10;	Ordinal0 [0x001C1B40+72512]&#10;	Ordinal0 [0x001C1AD9+72409]&#10;	Ordinal0 [0x002B8F37+1085239]&#10;	GetHandleVerifier [0x003BD7ED+503293]&#10;	GetHandleVerifier [0x003BD580+502672]&#10;	GetHandleVerifier [0x003C46AC+531644]&#10;	GetHandleVerifier [0x003BDFFA+505354]&#10;	Ordinal0 [0x002B0606+1050118]&#10;	Ordinal0 [0x002B047F+1049727]&#10;	Ordinal0 [0x002BAF9B+1093531]&#10;	Ordinal0 [0x002BB103+1093891]&#10;	Ordinal0 [0x002BA095+1089685]&#10;	BaseThreadInitThunk [0x76E76359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x771F7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x771F7B44+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CP4RQU0', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0031EB13+1501971]
+	Ordinal0 [0x0029F6D1+980689]
+	Ordinal0 [0x0022765F+489055]
+	Ordinal0 [0x001BF2F4+62196]
+	Ordinal0 [0x001BBCDA+48346]
+	Ordinal0 [0x001D9800+169984]
+	Ordinal0 [0x001D942D+169005]
+	Ordinal0 [0x001D78EB+162027]
+	Ordinal0 [0x001C0AC7+68295]
+	Ordinal0 [0x001C1B40+72512]
+	Ordinal0 [0x001C1AD9+72409]
+	Ordinal0 [0x002B8F37+1085239]
+	GetHandleVerifier [0x003BD7ED+503293]
+	GetHandleVerifier [0x003BD580+502672]
+	GetHandleVerifier [0x003C46AC+531644]
+	GetHandleVerifier [0x003BDFFA+505354]
+	Ordinal0 [0x002B0606+1050118]
+	Ordinal0 [0x002B047F+1049727]
+	Ordinal0 [0x002BAF9B+1093531]
+	Ordinal0 [0x002BB103+1093891]
+	Ordinal0 [0x002BA095+1089685]
+	BaseThreadInitThunk [0x76E76359+25]
+	RtlGetAppContainerNamedObjectPath [0x771F7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x771F7B44+180]
+
+	at mavenBlog1.HomePage.initialize(HomePage.java:25)
+</failure>
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 1306
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="initialize" classname="mavenBlog1.validateNavigationBar" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="mavenBlog1.validateTitle" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateAppNavBar" classname="mavenBlog1.validateNavigationBar" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 77&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-CP4RQU0&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0031EB13+1501971]&#10;	Ordinal0 [0x0029F6D1+980689]&#10;	Ordinal0 [0x0022765F+489055]&#10;	Ordinal0 [0x001BF2F4+62196]&#10;	Ordinal0 [0x001BBCDA+48346]&#10;	Ordinal0 [0x001D9800+169984]&#10;	Ordinal0 [0x001D942D+169005]&#10;	Ordinal0 [0x001D78EB+162027]&#10;	Ordinal0 [0x001C0AC7+68295]&#10;	Ordinal0 [0x001C1B40+72512]&#10;	Ordinal0 [0x001C1AD9+72409]&#10;	Ordinal0 [0x002B8F37+1085239]&#10;	GetHandleVerifier [0x003BD7ED+503293]&#10;	GetHandleVerifier [0x003BD580+502672]&#10;	GetHandleVerifier [0x003C46AC+531644]&#10;	GetHandleVerifier [0x003BDFFA+505354]&#10;	Ordinal0 [0x002B0606+1050118]&#10;	Ordinal0 [0x002B047F+1049727]&#10;	Ordinal0 [0x002BAF9B+1093531]&#10;	Ordinal0 [0x002BB103+1093891]&#10;	Ordinal0 [0x002BA095+1089685]&#10;	BaseThreadInitThunk [0x76E76359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x771F7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x771F7B44+180]&#10;"/>
+  </testcase>
+  <testcase name="validateAppTitle" classname="mavenBlog1.validateTitle" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 77&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-CP4RQU0&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0031EB13+1501971]&#10;	Ordinal0 [0x0029F6D1+980689]&#10;	Ordinal0 [0x0022765F+489055]&#10;	Ordinal0 [0x001BF2F4+62196]&#10;	Ordinal0 [0x001BBCDA+48346]&#10;	Ordinal0 [0x001D9800+169984]&#10;	Ordinal0 [0x001D942D+169005]&#10;	Ordinal0 [0x001D78EB+162027]&#10;	Ordinal0 [0x001C0AC7+68295]&#10;	Ordinal0 [0x001C1B40+72512]&#10;	Ordinal0 [0x001C1AD9+72409]&#10;	Ordinal0 [0x002B8F37+1085239]&#10;	GetHandleVerifier [0x003BD7ED+503293]&#10;	GetHandleVerifier [0x003BD580+502672]&#10;	GetHandleVerifier [0x003C46AC+531644]&#10;	GetHandleVerifier [0x003BDFFA+505354]&#10;	Ordinal0 [0x002B0606+1050118]&#10;	Ordinal0 [0x002B047F+1049727]&#10;	Ordinal0 [0x002BAF9B+1093531]&#10;	Ordinal0 [0x002BB103+1093891]&#10;	Ordinal0 [0x002BA095+1089685]&#10;	BaseThreadInitThunk [0x76E76359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x771F7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x771F7B44+180]&#10;"/>
+  </testcase>
+  <testcase name="basePageNavigation" classname="mavenBlog1.HomePage" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 77&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-CP4RQU0&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0031EB13+1501971]&#10;	Ordinal0 [0x0029F6D1+980689]&#10;	Ordinal0 [0x0022765F+489055]&#10;	Ordinal0 [0x001BF2F4+62196]&#10;	Ordinal0 [0x001BBCDA+48346]&#10;	Ordinal0 [0x001D9800+169984]&#10;	Ordinal0 [0x001D942D+169005]&#10;	Ordinal0 [0x001D78EB+162027]&#10;	Ordinal0 [0x001C0AC7+68295]&#10;	Ordinal0 [0x001C1B40+72512]&#10;	Ordinal0 [0x001C1AD9+72409]&#10;	Ordinal0 [0x002B8F37+1085239]&#10;	GetHandleVerifier [0x003BD7ED+503293]&#10;	GetHandleVerifier [0x003BD580+502672]&#10;	GetHandleVerifier [0x003C46AC+531644]&#10;	GetHandleVerifier [0x003BDFFA+505354]&#10;	Ordinal0 [0x002B0606+1050118]&#10;	Ordinal0 [0x002B047F+1049727]&#10;	Ordinal0 [0x002BAF9B+1093531]&#10;	Ordinal0 [0x002BB103+1093891]&#10;	Ordinal0 [0x002BA095+1089685]&#10;	BaseThreadInitThunk [0x76E76359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x771F7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x771F7B44+180]&#10;"/>
+  </testcase>
+  <testcase name="basePageNavigation" classname="mavenBlog1.HomePage" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 77&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-CP4RQU0&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0031EB13+1501971]&#10;	Ordinal0 [0x0029F6D1+980689]&#10;	Ordinal0 [0x0022765F+489055]&#10;	Ordinal0 [0x001BF2F4+62196]&#10;	Ordinal0 [0x001BBCDA+48346]&#10;	Ordinal0 [0x001D9800+169984]&#10;	Ordinal0 [0x001D942D+169005]&#10;	Ordinal0 [0x001D78EB+162027]&#10;	Ordinal0 [0x001C0AC7+68295]&#10;	Ordinal0 [0x001C1B40+72512]&#10;	Ordinal0 [0x001C1AD9+72409]&#10;	Ordinal0 [0x002B8F37+1085239]&#10;	GetHandleVerifier [0x003BD7ED+503293]&#10;	GetHandleVerifier [0x003BD580+502672]&#10;	GetHandleVerifier [0x003C46AC+531644]&#10;	GetHandleVerifier [0x003BDFFA+505354]&#10;	Ordinal0 [0x002B0606+1050118]&#10;	Ordinal0 [0x002B047F+1049727]&#10;	Ordinal0 [0x002BAF9B+1093531]&#10;	Ordinal0 [0x002BB103+1093891]&#10;	Ordinal0 [0x002BA095+1089685]&#10;	BaseThreadInitThunk [0x76E76359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x771F7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x771F7B44+180]&#10;"/>
+  </testcase>
+  <testcase name="teardown" classname="mavenBlog1.HomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="mavenBlog1.validateNavigationBar" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="mavenBlog1.validateTitle" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

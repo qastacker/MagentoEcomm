@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 4.725 s <<< FAILURE! - in TestSuite
+initialize(mavenBlog1.HomePage)  Time elapsed: 4.234 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CP4RQU0', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0031EB13+1501971]
+	Ordinal0 [0x0029F6D1+980689]
+	Ordinal0 [0x0022765F+489055]
+	Ordinal0 [0x001BF2F4+62196]
+	Ordinal0 [0x001BBCDA+48346]
+	Ordinal0 [0x001D9800+169984]
+	Ordinal0 [0x001D942D+169005]
+	Ordinal0 [0x001D78EB+162027]
+	Ordinal0 [0x001C0AC7+68295]
+	Ordinal0 [0x001C1B40+72512]
+	Ordinal0 [0x001C1AD9+72409]
+	Ordinal0 [0x002B8F37+1085239]
+	GetHandleVerifier [0x003BD7ED+503293]
+	GetHandleVerifier [0x003BD580+502672]
+	GetHandleVerifier [0x003C46AC+531644]
+	GetHandleVerifier [0x003BDFFA+505354]
+	Ordinal0 [0x002B0606+1050118]
+	Ordinal0 [0x002B047F+1049727]
+	Ordinal0 [0x002BAF9B+1093531]
+	Ordinal0 [0x002BB103+1093891]
+	Ordinal0 [0x002BA095+1089685]
+	BaseThreadInitThunk [0x76E76359+25]
+	RtlGetAppContainerNamedObjectPath [0x771F7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x771F7B44+180]
+
+	at mavenBlog1.HomePage.initialize(HomePage.java:25)
+

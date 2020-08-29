@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="mavenBlog1.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Validate page title(failed)">
+    <classes>
+      <class name="mavenBlog1.validateTitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="validateAppTitle"/>
+        </methods>
+      </class> <!-- mavenBlog1.validateTitle -->
+    </classes>
+  </test> <!-- Validate page title(failed) -->
+  <test thread-count="5" name="Validate home page(failed)">
+    <classes>
+      <class name="mavenBlog1.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- mavenBlog1.HomePage -->
+    </classes>
+  </test> <!-- Validate home page(failed) -->
+  <test thread-count="5" name="Validate Navigation bar(failed)">
+    <classes>
+      <class name="mavenBlog1.validateNavigationBar">
+        <methods>
+          <include name="validateAppNavBar"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- mavenBlog1.validateNavigationBar -->
+    </classes>
+  </test> <!-- Validate Navigation bar(failed) -->
+</suite> <!-- Failed suite [Suite] -->

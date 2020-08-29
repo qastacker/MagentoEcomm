@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56542" started-at="2019-12-14T06:35:47Z" finished-at="2019-12-14T06:36:44Z">
+    <groups>
+    </groups>
+    <test name="Validate page title" duration-ms="21112" started-at="2019-12-14T06:35:47Z" finished-at="2019-12-14T06:36:08Z">
+      <class name="mavenBlog1.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:mavenBlog1.validateTitle@1b6e1eff]" name="initialize" is-config="true" duration-ms="16149" started-at="2019-12-14T06:35:47Z" finished-at="2019-12-14T06:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:mavenBlog1.validateTitle@1b6e1eff]" name="validateAppTitle" duration-ms="416" started-at="2019-12-14T06:36:03Z" finished-at="2019-12-14T06:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:mavenBlog1.validateTitle@1b6e1eff]" name="teardown" is-config="true" duration-ms="4516" started-at="2019-12-14T06:36:04Z" finished-at="2019-12-14T06:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- mavenBlog1.validateTitle -->
+    </test> <!-- Validate page title -->
+    <test name="Validate home page" duration-ms="23383" started-at="2019-12-14T06:36:08Z" finished-at="2019-12-14T06:36:32Z">
+      <class name="mavenBlog1.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:mavenBlog1.HomePage@1e683a3e]" name="initialize" is-config="true" duration-ms="5324" started-at="2019-12-14T06:36:08Z" finished-at="2019-12-14T06:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mavenBlog1.HomePage@1e683a3e]" name="basePageNavigation" duration-ms="13142" started-at="2019-12-14T06:36:14Z" data-provider="getData" finished-at="2019-12-14T06:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mavenBlog1.HomePage@1e683a3e]" name="basePageNavigation" duration-ms="4830" started-at="2019-12-14T06:36:27Z" data-provider="getData" finished-at="2019-12-14T06:36:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@adolmedia.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@#123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:mavenBlog1.HomePage@1e683a3e]" name="teardown" is-config="true" duration-ms="80" started-at="2019-12-14T06:36:32Z" finished-at="2019-12-14T06:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- mavenBlog1.HomePage -->
+    </test> <!-- Validate home page -->
+    <test name="App Testing" duration-ms="1" started-at="2019-12-14T06:36:32Z" finished-at="2019-12-14T06:36:32Z">
+    </test> <!-- App Testing -->
+    <test name="Validate Navigation bar" duration-ms="11917" started-at="2019-12-14T06:36:32Z" finished-at="2019-12-14T06:36:44Z">
+      <class name="mavenBlog1.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:mavenBlog1.validateNavigationBar@cd1e646]" name="initialize" is-config="true" duration-ms="11782" started-at="2019-12-14T06:36:32Z" finished-at="2019-12-14T06:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:mavenBlog1.validateNavigationBar@cd1e646]" name="validateAppNavBar" duration-ms="60" started-at="2019-12-14T06:36:44Z" finished-at="2019-12-14T06:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:mavenBlog1.validateNavigationBar@cd1e646]" name="teardown" is-config="true" duration-ms="73" started-at="2019-12-14T06:36:44Z" finished-at="2019-12-14T06:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- mavenBlog1.validateNavigationBar -->
+    </test> <!-- Validate Navigation bar -->
+  </suite> <!-- Suite -->
+</testng-results>
